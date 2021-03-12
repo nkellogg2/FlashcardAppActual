@@ -36,5 +36,17 @@
         android:paddingRight="15dp"
         android:background="@drawable/answer_background"/>
 
+    <ImageView
+        android:id="@+id/addButton"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="560dp"
+        android:contentDescription="@string/button_for_adding_cards"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+
+        app:srcCompat="@drawable/add_icon" />
+
 
 </RelativeLayout>

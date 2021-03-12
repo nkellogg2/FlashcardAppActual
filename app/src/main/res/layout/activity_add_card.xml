@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity"
+    android:background="@drawable/question_background">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/newQuestionField"
+        android:layout_margin="20dp"
+        android:hint="@string/enter_the_question_here"
+        android:textSize="24sp"
+        android:inputType="textMultiLine"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/newAnswerField"
+        android:layout_below="@id/newQuestionField"
+        android:layout_margin="20dp"
+        android:hint="@string/enter_the_answer_here"
+        android:textSize="24sp"
+        android:inputType="textMultiLine"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cancel_button"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="560dp"
+        android:contentDescription="@string/button_for_canceling_cards"
+        android:scaleType="fitCenter"
+        android:id="@+id/cancelButton"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/save_button"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="560dp"
+        android:contentDescription="@string/button_for_saving_card_contents"
+        android:scaleType="fitCenter"
+        android:id="@+id/saveButton"/>
+
+</RelativeLayout>
