@@ -3,12 +3,11 @@
 ## Lab 2
 
 ### App Description
-App now has functionality to create a new flashcard using user input
+App now has functionality to create a new flashcard using user input.
 
-### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
+### App Walk-through
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/nkellogg2/FlashcardAppActual/blob/master/FlashCardV2.gif" width=200><br>
 
 
 ## Required
