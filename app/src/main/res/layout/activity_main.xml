@@ -4,15 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/question_background">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:id="@+id/flashcardQuestion"
         android:gravity="center"
-        android:text="Who was the 15th president of the US?"
+        android:text="@string/who_was_the_15th_president_of_the_us"
         android:textSize="40sp"
+        android:background="@drawable/question_background"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
 
 
         />
@@ -23,9 +28,13 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="James Buchanan"
+        android:text="@string/james_buchanan"
         android:textSize="40sp"
-        android:visibility="invisible"/>
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/answer_background"/>
 
 
 </RelativeLayout>

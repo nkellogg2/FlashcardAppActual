@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FlashcardAppActual</string>
+    <string name="james_buchanan">James Buchanan</string>
+    <string name="who_was_the_15th_president_of_the_us">Who was the 15th president of the US?</string>
 </resources>
