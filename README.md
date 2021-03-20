@@ -5,13 +5,13 @@
 ### App Description
 Added cycle, saving, and delete functions.
 
-### App Walk-though
+### App Walk-through
 
-<img src="https://github.com/nkellogg2/FlashcardAppActual/blob/master/FlashCardV3.gif" width=200><br>
+<img src="https://github.com/nkellogg2/FlashcardAppActual/blob/master/FlashCardV2.gif" width=200><br>
 
 ## Required
 - [x] User can create a card and still see their created card when the app is relaunched.
-- [x] User can create muliple cards and browse through all created cards
+- [x] User can create multiple cards and browse through all created cards
 
 ## Optional
 - [x] User can delete a card and no longer see it in their deck anymore
