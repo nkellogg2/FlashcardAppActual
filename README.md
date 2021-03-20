@@ -7,7 +7,7 @@ Added cycle, saving, and delete functions.
 
 ### App Walk-through
 
-<img src="https://github.com/nkellogg2/FlashcardAppActual/blob/master/FlashCardV3.gif" width=200><br>
+<img src="giflinkhere" width=200><br>
 
 ## Required
 - [x] User can create a card and still see their created card when the app is relaunched.
