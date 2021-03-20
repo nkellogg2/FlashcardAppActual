@@ -12,7 +12,7 @@
         android:layout_height="200dp"
         android:id="@+id/flashcardQuestion"
         android:gravity="center"
-        android:text="@string/who_was_the_15th_president_of_the_us"
+        android:text="@string/replace_the_question_here"
         android:textSize="40sp"
         android:background="@drawable/question_background"
         android:layout_marginTop="20dp"
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="@string/james_buchanan"
+        android:text="@string/replace_the_answer_here"
         android:textSize="40sp"
         android:visibility="invisible"
         android:layout_marginTop="20dp"
@@ -47,6 +47,26 @@
         android:visibility="visible"
 
         app:srcCompat="@drawable/add_icon" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/nextButton"
+        android:src="@drawable/ic_iconmonstr_arrow_31"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="300dp"
+        android:contentDescription="@string/button_for_cycling_through_cards"
+
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/trashButton"
+        android:src="@drawable/delete_button"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:contentDescription="@string/deletes_flashcard"
+        />
 
 
 </RelativeLayout>

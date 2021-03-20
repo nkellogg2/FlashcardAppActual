@@ -7,4 +7,8 @@
     <string name="enter_the_question_here">Enter the question here!</string>
     <string name="enter_the_answer_here">Enter the answer here!</string>
     <string name="button_for_saving_card_contents">Button for saving card contents</string>
+    <string name="button_for_cycling_through_cards">Button for cycling through cards</string>
+    <string name="deletes_flashcard">Deletes flashcard</string>
+    <string name="replace_the_answer_here">Replace the answer here!</string>
+    <string name="replace_the_question_here">Replace the question here!</string>
 </resources>
